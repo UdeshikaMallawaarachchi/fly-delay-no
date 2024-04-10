@@ -1,0 +1,35 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #bfbfbf;
+
+    .NavlinkContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:50px;
+
+        .NavlinkList {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap:50px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+
+            .Navlink {
+                list-style: none;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .LoginBtn {
+        background-color: #003594;
+    }
+
+
+
+}
