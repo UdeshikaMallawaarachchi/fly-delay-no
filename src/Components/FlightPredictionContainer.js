@@ -8,7 +8,7 @@ export default function FlightPredictionContainer() {
     const [predictionText, setPredictionText] = useState('Please fill out the form to predict flight delay.');
     const onFinish = async (values) => {
         try {
-            const response = await fetch('http://127.0.0.1:5000/predict_delay', {
+            const response = await fetch('https://fly-delay-no-bfc9cc73f9bc.herokuapp.com/predict_delay', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
